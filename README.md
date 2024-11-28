@@ -1,14 +1,12 @@
 # Camila's WeatherOne App
-
-This is a simple weather app built with React that allows users to search for the weather in different cities. It uses the OpenWeatherMap API to fetch the weather data.
+This is a weather app built with React that allows users to search for the weather in different cities.
 
 # Features
-- Search for weather by city.
-- Displays current temperature, weather description, and a weather icon.
-- Shows a Hello Kitty image alongside the weather details.
+1. Search for weather by city.
+2. Displays current temperature, weather description, and a weather icon.
+3. Shows a Hello Kitty image alongside the weather details.
 
 # Setup
-
 1. Clone this repository to your local machine:
    git clone https://github.com/20cml/100974597_comp3123_labtest2.git
 3. Install dependencies:
