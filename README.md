@@ -15,7 +15,11 @@ This is a simple weather app built with React that allows users to search for th
    npm install
 4. Create a .env file in the root directory and add your OpenWeatherMap API key:
    REACT_APP_OPENWEATHER_API_KEY=own-APIkey
-5. Start the development server:
+5. Use the following endpoint to get weather data:
+   http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid={APIkey}
+6. Start the development server:
    npm start
-6. Open the app in your browser:
+7. Open the app in your browser:
    http://localhost:3000
+
+
