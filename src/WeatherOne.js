@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import WeatherDetails from "./WeatherDetails";
+import WeatherTwo from "./WeatherTwo";
 
-const Weather = () => {
+const WeatherOne = () => {
     const [city, setCity] = useState("Toronto");
     const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState("");
@@ -42,7 +42,7 @@ const Weather = () => {
                 </button>
             </div>
             {error && <p style={styles.error}>{error}</p>}
-            {weatherData && <WeatherDetails data={weatherData} />}
+            {weatherData && <WeatherTwo data={weatherData} />}
         </div>
     );
 };
@@ -80,5 +80,5 @@ const styles = {
         marginTop: "10px",
     },
 };
-export default Weather;
+export default WeatherOne;
 

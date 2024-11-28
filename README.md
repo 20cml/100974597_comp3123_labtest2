@@ -1,4 +1,4 @@
-# Camila's Weather App
+# Camila's WeatherOne App
 
 This is a simple weather app built with React that allows users to search for the weather in different cities. It uses the OpenWeatherMap API to fetch the weather data.
 

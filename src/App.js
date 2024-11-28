@@ -1,11 +1,11 @@
 import React from "react";
-import Weather from "./Weather";
+import WeatherOne from "./WeatherOne";
 
 const App = () => {
   return (
       <div style={styles.container}>
         <h1 style={styles.header}>Weather App</h1>
-        <Weather />
+        <WeatherOne />
       </div>
   );
 };

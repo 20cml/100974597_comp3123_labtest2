@@ -1,6 +1,6 @@
 import React from "react";
 
-const WeatherDetails = ({ data }) => {
+const WeatherTwo = ({ data }) => {
     const { name, main, weather } = data;
     return (
         <div style={styles.container}>
@@ -11,7 +11,7 @@ const WeatherDetails = ({ data }) => {
             </p>
             <img
                 src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
-                alt="Weather Icon"
+                alt="WeatherOne Icon"
                 style={styles.icon}
             />
         </div>
@@ -54,4 +54,4 @@ const styles = {
         marginTop: "10px",
     },
 };
-export default WeatherDetails;
+export default WeatherTwo;
